@@ -1,6 +1,3 @@
-// ===============================
-// EXERCISE FILE: arithmetic_ops.cpp
-// ===============================
 
 #include <iostream>
 using namespace std;

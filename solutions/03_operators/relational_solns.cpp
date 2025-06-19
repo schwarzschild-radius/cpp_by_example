@@ -1,6 +1,4 @@
-// ===============================
-// SOLUTION FILE: relational_operators_solution.cpp
-// ===============================
+
 
 #include <iostream>
 using namespace std;

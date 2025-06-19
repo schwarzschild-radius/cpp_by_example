@@ -1,6 +1,4 @@
-// ===============================
-// EXERCISE FILE: logical_operators.cpp
-// ===============================
+
 
 #include <iostream>
 using namespace std;

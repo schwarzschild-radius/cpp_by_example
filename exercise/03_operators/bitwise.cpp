@@ -1,6 +1,3 @@
-// ===============================
-// EXERCISE FILE: bitwise_operators_exercise.cpp
-// ===============================
 
 #include <iostream>
 using namespace std;

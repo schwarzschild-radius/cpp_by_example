@@ -1,6 +1,4 @@
-// =====================
-// Miscellaneous Operators - Exercise
-// =====================
+
 #include <iostream>
 #include <string>
 using namespace std;

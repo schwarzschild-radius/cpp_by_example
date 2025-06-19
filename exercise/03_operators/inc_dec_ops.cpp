@@ -1,6 +1,3 @@
-// ===============================
-// EXERCISE FILE: inc_dec_operators.cpp
-// ===============================
 
 #include <iostream>
 using namespace std;

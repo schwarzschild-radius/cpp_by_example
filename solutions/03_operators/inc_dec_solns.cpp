@@ -1,6 +1,4 @@
-// ===============================
-// SOLUTION FILE: inc_dec_operators_solution.cpp
-// ===============================
+
 
 #include <iostream>
 using namespace std;

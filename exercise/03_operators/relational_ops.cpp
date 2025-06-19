@@ -1,6 +1,3 @@
-// ===============================
-// EXERCISE FILE: relational_operators.cpp
-// ===============================
 
 #include <iostream>
 using namespace std;

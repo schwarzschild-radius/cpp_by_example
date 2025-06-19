@@ -1,6 +1,4 @@
-// =====================
-// Advanced Assignment Operators - Solution
-// =====================
+
 #include <iostream>
 using namespace std;
 

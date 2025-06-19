@@ -1,6 +1,3 @@
-// ===============================
-// SOLUTION FILE: bitwise_operators_solution.cpp
-// ===============================
 
 #include <iostream>
 using namespace std;
