@@ -33,7 +33,7 @@ int main() {
     // Example 6: Post-Decrement
     int arr4[] = {10, 20, 30};
     int top = 2;
-    cout << arr4[top--] << endl; // Expected: 30
+    cout <<  /*   TODO: Post Decrement top   */  << endl; // Expected: 30
 
     return 0;
 }
