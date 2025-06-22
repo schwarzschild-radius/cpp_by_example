@@ -1,14 +1,13 @@
 #include <iostream>
-using namespace std;
 
 class Shape {
 public:
-  virtual void draw() { cout << "Drawing a shape." << endl; }
+  virtual void draw() { std::cout << "Drawing a shape." << std::endl; }
 };
 
 class Circle : public Shape {
 public:
-  void draw() override { cout << "Drawing a circle." << endl; }
+  void draw() override { std::cout << "Drawing a circle." << std::endl; }
 };
 
 int main() {

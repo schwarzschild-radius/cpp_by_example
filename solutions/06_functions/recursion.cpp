@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 // Recursive function
 int sum(int n) {
@@ -10,6 +9,6 @@ int sum(int n) {
 
 int main() {
   int n = 5;
-  cout << "Sum from 1 to " << n << " is " << sum(n) << endl;
+  std::cout << "Sum from 1 to " << n << " is " << sum(n) << std::endl;
   return 0;
 }

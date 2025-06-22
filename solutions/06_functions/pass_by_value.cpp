@@ -1,15 +1,14 @@
 #include <iostream>
-using namespace std;
 
 void increaseByTen(int n) {
   n += 10;
-  cout << "Inside function (by value): " << n << endl;
+  std::cout << "Inside function (by value): " << n << std::endl;
 }
 
 int main() {
   int num = 5;
-  cout << "Before (by value): " << num << endl;
+  std::cout << "Before (by value): " << num << std::endl;
   increaseByTen(num);
-  cout << "After (by value): " << num << endl;
+  std::cout << "After (by value): " << num << std::endl;
   return 0;
 }

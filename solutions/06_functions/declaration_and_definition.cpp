@@ -1,12 +1,11 @@
 #include <iostream>
-using namespace std;
 
 // Function declaration
 int multiply(int a, int b);
 
 int main() {
   int a = 3, b = 4;
-  cout << "Product: " << multiply(a, b) << endl;
+  std::cout << "Product: " << multiply(a, b) << std::endl;
   return 0;
 }
 
