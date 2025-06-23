@@ -1,7 +1,5 @@
 #include <iostream>
-
 // TODO: Write an inline function cube that takes an int and returns its cube.
-
 int main() {
   int n;
   // TODO: Read a number from input
