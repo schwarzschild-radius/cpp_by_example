@@ -1,14 +1,12 @@
 #include <iostream>
-
 void increaseByTenPtr(int *n) {
   *n += 10;
-  std::cout << "Inside function (by pointer): " << *n << std::endl;
+  std::cout << "Inside function (by pointer): " << *n << '\n';
 }
-
 int main() {
   int num = 5;
-  std::cout << "Before (by pointer): " << num << std::endl;
+  std::cout << "Before (by pointer): " << num << '\n';
   increaseByTenPtr(&num);
-  std::cout << "After (by pointer): " << num << std::endl;
+  std::cout << "After (by pointer): " << num << '\n';
   return 0;
 }
