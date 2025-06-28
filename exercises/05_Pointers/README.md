@@ -2,7 +2,7 @@
 
 Pointers store the address of a variable, typically of other variables. They are essential for dynamic memory access and efficient array handling.
 
----
+
 ## Topics Covered
 
 
