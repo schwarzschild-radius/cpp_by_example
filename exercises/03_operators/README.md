@@ -51,12 +51,3 @@ This module covers the following types of C++ operators:
 - Member Access via Pointer (`->`)
 - Scope Resolution (`::`)
 
----
-
-## How to Use
-
-You can compile and run any `.cpp` file using a C++ compiler:
-
-```bash
-g++ filename.cpp -o output
-./output
