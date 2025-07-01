@@ -1,7 +1,4 @@
-
-
 #include <iostream>
-using namespace std;
 
 /*
 Task:
@@ -13,18 +10,18 @@ int main() {
     bool hasID = true;
 
     if (/* TODO: check if age is 18 or older AND hasID */)
-        cout << "Entry allowed\n"; // &&
+        std::cout << "Entry allowed\n"; // &&
 
     bool hasCoupon = false;
     bool isStudent = true;
 
     if (/* TODO: check if hasCoupon OR isStudent */)
-        cout << "Discount applicable\n"; // ||
+        std::cout << "Discount applicable\n"; // ||
 
     bool isLoggedIn = false;
 
     if (/* TODO: check if NOT isLoggedIn */)
-        cout << "Please log in first\n"; // !
+        std::cout << "Please log in first\n"; // !
 
     return 0;
 }
