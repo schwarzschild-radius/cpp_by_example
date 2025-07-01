@@ -1,33 +1,31 @@
-
-
 #include <iostream>
-using namespace std;
+#include <string>
 
 int main() {
-    string password = "admin";
-    string input = "admin";
+    std::string password = "admin";
+    std::string input = "admin";
     if (input == password)
-        cout << "Login Success\n";  // ==
+        std::cout << "Login Success\n";  // ==
 
     int user_input = 4, correct = 5;
     if (user_input != correct)
-        cout << "Try again!\n";     // !=
+        std::cout << "Try again!\n";     // !=
 
     int score = 105, highscore = 100;
     if (score > highscore)
-        cout << "New High Score!\n"; // >
+        std::cout << "New High Score!\n"; // >
 
     int age = 16;
     if (age < 18)
-        cout << "Not eligible to vote\n"; // <
+        std::cout << "Not eligible to vote\n"; // <
 
     int marks = 70;
     if (marks >= 50)
-        cout << "You passed!\n"; // >=
+        std::cout << "You passed!\n"; // >=
 
     int attempts = 3;
     if (attempts <= 3)
-        cout << "You still have chances\n"; // <=
+        std::cout << "You still have chances\n"; // <=
 
     return 0;
 }

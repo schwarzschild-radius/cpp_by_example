@@ -1,25 +1,22 @@
-
-
 #include <iostream>
-using namespace std;
 
 int main() {
     int age = 20;
     bool hasID = true;
 
     if (age >= 18 && hasID)
-        cout << "Entry allowed\n"; // &&
+        std::cout << "Entry allowed\n"; // &&
 
     bool hasCoupon = false;
     bool isStudent = true;
 
     if (hasCoupon || isStudent)
-        cout << "Discount applicable\n"; // ||
+        std::cout << "Discount applicable\n"; // ||
 
     bool isLoggedIn = false;
 
     if (!isLoggedIn)
-        cout << "Please log in first\n"; // !
+        std::cout << "Please log in first\n"; // !
 
     return 0;
 }

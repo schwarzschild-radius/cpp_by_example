@@ -1,7 +1,5 @@
-
 #include <iostream>
 #include <string>
-using namespace std;
 
 struct Student {
     int marks;
@@ -13,28 +11,28 @@ namespace MySpace {
 
 int main() {
     int x = 10;
-    cout << "sizeof(x): " << sizeof(x) << endl;
+    std::cout << "sizeof(x): " << sizeof(x) << "\n";
 
     int age = 17;
-    string result = (age >= 18) ? "Adult" : "Minor";
-    cout << "Ternary result: " << result << endl;
+    std::string result = (age >= 18) ? "Adult" : "Minor";
+    std::cout << "Ternary result: " << result << "\n";
 
-    int y = (cout << "Hi, ", 20);
-    cout << "Value of y using comma operator: " << y << endl;
+    int y = (std::cout << "Hi, ", 20);
+    std::cout << "Value of y using comma operator: " << y << "\n";
 
     int val = 42;
     int* ptr = &val;
-    cout << "Value pointed to by ptr: " << *ptr << endl;
+    std::cout << "Value pointed to by ptr: " << *ptr << "\n";
 
-    cout << "Address of val: " << &val << endl;
+    std::cout << "Address of val: " << &val << "\n";
 
     Student s = {85};
     Student* s_ptr = &s;
-    cout << "s_ptr->marks: " << s_ptr->marks << endl;
+    std::cout << "s_ptr->marks: " << s_ptr->marks << "\n";
 
-    int val1 = 5;
-    cout << "Global val1 using ::val1: " << ::val1 << endl;
-    cout << "Namespace MySpace::val1: " << MySpace::val1 << endl;
+    // int val1 = 5;
+    std::cout << "Global val1 using ::val1: " << ::val1 << "\n";
+    std::cout << "Namespace MySpace::val1: " << MySpace::val1 << "\n";
 
     return 0;
 }
