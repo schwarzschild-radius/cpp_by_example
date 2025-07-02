@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
 
 
-SRC_DIR = solutions/03_operators
+SRC_DIR = .
 BUILD_DIR = build
 
 
