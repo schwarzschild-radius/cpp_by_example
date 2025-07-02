@@ -1,6 +1,4 @@
-
 #include <iostream>
-
 
 int main() {
     // Task 1: Use chained assignment to assign the same value to three variables a, b, and c.

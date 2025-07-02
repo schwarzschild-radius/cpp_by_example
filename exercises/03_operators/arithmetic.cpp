@@ -1,7 +1,4 @@
-
 #include <iostream>
-
-
 /*
 Assignment:
 Complete each TODO by filling in the missing code.
