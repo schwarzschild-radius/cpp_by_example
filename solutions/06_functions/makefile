@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
-SOL_DIR = .
+SOL_DIR = solutions/06_functions
 BUILD_DIR = build
 
 SOL_SRCS = $(wildcard $(SOL_DIR)/*.cpp)
